@@ -9,6 +9,10 @@
 - **POST** `/api/v1/companies`
 - **GET** `/api/v1/companies`
 
+## Users
+
+- **GET** `/api/v1/users`
+
 ## Authentication
 
 - **POST** `/api/v1/auth/register`
