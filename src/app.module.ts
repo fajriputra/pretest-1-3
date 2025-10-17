@@ -18,7 +18,7 @@ import { CheckoutModule } from './modules/checkout/checkout.module';
       password: process.env.DB_PASS || '',
       database: process.env.DB_NAME || 'dbpretestpsi',
       autoLoadEntities: true,
-      synchronize: false,
+      synchronize: true,
     }),
     AuthModule,
     UserModule,
